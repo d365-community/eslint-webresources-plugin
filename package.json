@@ -1,0 +1,20 @@
+{
+    "name": "d365-community-eslint-webresources-plugin",
+    "homepage": "https://github.com/d365-community/eslint-webresources-plugin#readme",
+    "description": "eslint extension plugin to enforce rules and styles for D365 webresources",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "D365",
+        "webresources"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/d365-community/eslint-webresources-plugin"
+    },
+    "bugs": {
+        "url": "https://github.com/d365-community/eslint-webresources-plugin/issues"
+    },
+    "main": "index.js"
+}
