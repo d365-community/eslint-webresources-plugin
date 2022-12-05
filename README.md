@@ -19,7 +19,7 @@ see package.json dev dependency
 ```json
 "devDependencies": {
     [...]
-    "d365-community-eslint-webresources-plugin": "file:d365-community-eslint-webresources-plugin",
+    "eslint-plugin-d365-community-webresources": "file:d365-community-eslint-webresources-plugin",
     [...]
 }
 ```
@@ -30,13 +30,13 @@ manage .eslintrc.json
 ```json
   "plugins": [
     [...]
-    "d365-community-eslint-webresources-plugin"
+    "d365-community-webresources"
   ],
   "rules": {
     [...]
-    "d365-community-eslint-webresources-plugin/webresource-accessibility": "error",
-    "d365-community-eslint-webresources-plugin/webresource-static": "error",
-    "d365-community-eslint-webresources-plugin/webresource-referrer": "error",
+    "d365-community-webresources/webresource-accessibility": "error",
+    "d365-community-webresources/webresource-static": "error",
+    "d365-community-webresources/webresource-referrer": "error",
     [...]
   },
 ```
